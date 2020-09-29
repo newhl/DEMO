@@ -1,7 +1,10 @@
 <template>
   <div>
     <!-- <vue-video/> -->
-    <calculator/>
+    <!-- <calculator/> -->
+	<dowmLoadImage/>
+	<!-- <test/> -->
+	<!-- <vviemer/> -->
   </div>
 </template>
 
@@ -9,12 +12,19 @@
   // Similarly, you can also introduce the plugin resource pack you want to use within the component
   // import 'some-videojs-plugin'
   // import VueVideo from './components/vue-video'
-  import Calculator from './components/calculator'
+  // import Calculator from './components/calculator'
+  // import test from './components/test.vue'
+  import dowmLoadImage from './components/downImage.vue'
+  // import Vviemer from './components/v-viewer.vue'
   export default {
     components:{
       // VueVideo
-      Calculator
+      // Calculator
+	  // test
+	  dowmLoadImage
+	  // Vviemer
     },
+	
     data() {
       return {
         
