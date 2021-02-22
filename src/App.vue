@@ -5,6 +5,12 @@
 	<dowmLoadImage/>
 	<!-- <test/> -->
 	<!-- <vviemer/> -->
+	<!-- <html2Canvas/> -->
+	<!-- <quillEditor/> -->
+	<!-- <bpmn/> -->
+	<!-- <input-name/> -->
+	<!-- <treeTransfer></treeTransfer> -->
+	<!-- <slip-delete></slip-delete> -->
   </div>
 </template>
 
@@ -16,6 +22,12 @@
   // import test from './components/test.vue'
   import dowmLoadImage from './components/downImage.vue'
   // import Vviemer from './components/v-viewer.vue'
+  // import html2Canvas from './components/html2Canvas.vue'
+  // import quillEditor from './components/vue-Quill-Editor.vue'
+  // import bpmn from './components/bpmn.vue'
+  // import InputName from './components/input_input.vue'
+  // import treeTransfer from './components/el-tree-transfer.vue'
+  // import slipDelete from './components/slip-delete.vue'
   export default {
     components:{
       // VueVideo
@@ -23,11 +35,17 @@
 	  // test
 	  dowmLoadImage
 	  // Vviemer
+	  // html2Canvas
+	  // quillEditor
+	  // bpmn
+	  // InputName
+	  // treeTransfer
+	  // slipDelete
     },
 	
     data() {
       return {
-        
+        msg:'哈哈'
       }
     },
     mounted() {
